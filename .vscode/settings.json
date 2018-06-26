@@ -1,0 +1,22 @@
+{
+    //eslint
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "stylusSupremacy.insertBraces": false,
+    "stylusSupremacy.insertColons": false,
+    "stylusSupremacy.insertSemicolons": false,
+    "stylusSupremacy.insertNewLineAroundImports": false,
+    "stylusSupremacy.insertNewLineAroundBlocks": false,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.options": {
+      "extensions": [".js", ".vue"]
+    },
+    "editor.tabSize": 2,
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      { "language": "html", "autoFix": true },
+      { "language": "vue", "autoFix": true }
+    ],
+    "prettier.eslintIntegration": true
+  }
